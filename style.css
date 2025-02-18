@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff9b;
+  text-align: center;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#menu-toggle {
+  display: none;
+  background: #444;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#rating-section {
+  margin-top: 20px;
+}
+
+.rating .star {
+  font-size: 30px;
+  cursor: pointer;
+  color: gray;
+}
+
+.rating .star:hover,
+.rating .star.selected {
+  color: gold;
+}
